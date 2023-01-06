@@ -166,18 +166,7 @@ collections:
         - Animation
         - Children
         - Family
-      
-  Music:
-    sort_title: 07-Music
-    smart_filter:
-      sort_by: title.asc
-      all:
-        genre: Music
-        genre.not:
-        - Animation
-        - Children
-        - Musical
-      validate: false
+    
       
   Musical:
     sort_title: 07-Musical
@@ -222,18 +211,6 @@ collections:
       all:
         genre: Politics
       
-  Reality:
-    sort_title: 07-Reality
-    smart_filter:
-      sort_by: title.asc
-      all:
-        genre: 
-        - Reality
-        genre.not: 
-        - Animation
-        - Children
-      validate: false
-      
   Romance:
     sort_title: 07-Romance
     smart_filter:
@@ -274,17 +251,6 @@ collections:
       sort_by: title.asc
       all:
         genre: Soap
-      
-  Sports:
-    sort_title: 07-Sports
-    smart_filter:
-      sort_by: title.asc
-      all:
-        genre: Sport
-        genre.not:
-        - Animation
-        - Children
-      validate: false
       
   Talk Show:
     sort_title: 07-Talk Show
