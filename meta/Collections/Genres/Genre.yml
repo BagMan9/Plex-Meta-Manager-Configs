@@ -1,7 +1,11 @@
 ######################################################
 #                       GENRES                       #
 ######################################################
-
+templates:
+  Special Genre:
+    sort_title: "07-<<collection_name>>"
+    collection_order: alpha
+    collection_mode: hide
 
 collections:
   Action:
@@ -305,3 +309,13 @@ collections:
         - Children
         - Family
       validate: false
+  
+  Space:
+    template: {name: Special Genre}
+    trakt_list: https://trakt.tv/users/hdlists/lists/outer-space-space-exploration-movies
+    summary: "A collection of movies that feature outer space and exploration."
+  
+  Superhero:
+    template: {name: Special Genre}
+    trakt_list: https://trakt.tv/users/hdlists/lists/superhero-movies-from-1980-to-today
+    summary: "A collection of superhero movies released from 1980 until today."
