@@ -32,11 +32,11 @@ collections:
       url: https://www.imdb.com/search/title/?title_type=feature,tv_movie,documentary,short
       limit: 40
     summary: Popular Movies across the internet
-  Top Rated:
+  Best of All Time:
     template: { name: Chart, num: 4 }
     imdb_list: https://www.imdb.com/search/title/?groups=top_250&count=250/
     tmdb_top_rated: 250
-    summary: Top Rated Movies across the internet
+    summary: Best Rated Movies
   Oscars:
     template: { name: Chart, num: 5 }
     imdb_list: https://www.imdb.com/search/title/?title_type=feature,documentary&groups=oscar_winner

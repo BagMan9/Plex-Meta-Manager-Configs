@@ -94,14 +94,3 @@ collections:
         year.lte: 2030
       limit: 100
       
-  Best of All Time:
-    sort_title: 04-Best of All Time
-    smart_filter:
-      sort_by: audience_rating.desc
-      all:
-        year.gte: 1900
-        year.lte: 2030
-      limit: 100
-    visible_library: true
-    visible_shared: true
-    visible_home: true
