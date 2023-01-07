@@ -3,13 +3,13 @@
 ######################################################
 templates:
   Special Genre:
-    sort_title: "!A <<collection_name>>"
+    sort_title: "!A_<<collection_name>>"
     collection_order: alpha
     collection_mode: hide
 
 collections:
   Action:
-    sort_title: !A Action
+    sort_title: "!A Action"
     smart_filter:
       sort_by: title.asc
       all:
@@ -21,7 +21,7 @@ collections:
       validate: false
       
   Adventure:
-    sort_title: !A Adventure
+    sort_title: "!A Adventure"
     smart_filter:
       sort_by: title.asc
       all:
@@ -33,14 +33,14 @@ collections:
       validate: false
       
   Animation:
-    sort_title: !A Animation
+    sort_title: "!A Animation"
     smart_filter: 
       sort_by: title.asc
       all:
         genre: Animation
       
   Biography:
-    sort_title: !A Biography
+    sort_title: "!A Biography"
     smart_filter:
       sort_by: title.asc
       all:
@@ -52,7 +52,7 @@ collections:
       validate: false
       
   Comedy:
-    sort_title: !A Comedy
+    sort_title: "!A Comedy"
     smart_filter:
       sort_by: title.asc
       all:
@@ -64,7 +64,7 @@ collections:
       validate: false
       
   Cooking:
-    sort_title: !A Cooking
+    sort_title: "!A Cooking"
     smart_filter:
       sort_by: title.asc
       all:
@@ -74,7 +74,7 @@ collections:
         - Children
       
   Crime:
-    sort_title: !A Crime
+    sort_title: "!A Crime"
     smart_filter:
       sort_by: title.asc
       all:
@@ -86,7 +86,7 @@ collections:
       validate: false
       
   Documentary:
-    sort_title: !A Documentary
+    sort_title: "!A Documentary"
     smart_filter:
       sort_by: title.asc
       all:
@@ -96,7 +96,7 @@ collections:
         - Children
       
   Drama:
-    sort_title: !A Drama
+    sort_title: "!A Drama"
     smart_filter:
       sort_by: title.asc
       all:
@@ -108,14 +108,14 @@ collections:
       validate: false
       
   Family:
-    sort_title: !A Family
+    sort_title: "!A Family"
     smart_filter:
       sort_by: title.asc
       all:
         genre: Family
       
   Fantasy:
-    sort_title: !A Fantasy
+    sort_title: "!A Fantasy"
     smart_filter:
       sort_by: title.asc
       all:
@@ -127,7 +127,7 @@ collections:
       validate: false
       
   Game Show:
-    sort_title: !A Game Show
+    sort_title: "!A Game Show"
     smart_filter:
       ssort_by: title.asc
       all:
@@ -137,7 +137,7 @@ collections:
         - Children
       
   History:
-    sort_title: !A History
+    sort_title: "!A History"
     smart_filter:
       sort_by: title.asc
       all:
@@ -149,7 +149,7 @@ collections:
       validate: false
       
   Horror:
-    sort_title: !A Horror
+    sort_title: "!A Horror"
     smart_filter:
       sort_by: title.asc
       all:
@@ -161,7 +161,7 @@ collections:
       validate: false
       
   Martial Arts:
-    sort_title: !A Martial Arts
+    sort_title: "!A Martial Arts"
     smart_filter:
       sort_by: title.asc
       all:
@@ -173,7 +173,7 @@ collections:
     
       
   Musical:
-    sort_title: !A Musical
+    sort_title: "!A Musical"
     smart_filter:
       sort_by: title.asc
       all:
@@ -181,7 +181,7 @@ collections:
         genre.not: Children
       
   Mystery:
-    sort_title: !A Mystery
+    sort_title: "!A Mystery"
     smart_filter:
       sort_by: title.asc
       all:
@@ -193,14 +193,14 @@ collections:
       validate: false
       
   News:
-    sort_title: !A News
+    sort_title: "!A News"
     smart_filter:
       sort_by: title.asc
       all:
         genre: News
       
   Noir:
-    sort_title: !A Noir
+    sort_title: "!A Noir"
     smart_filter:
       sort_by: title.asc
       any:
@@ -209,14 +209,14 @@ collections:
         - Film Noir
       
   Politics:
-    sort_title: !A Politics
+    sort_title: "!A Politics"
     smart_filter:
       sort_by: title.asc
       all:
         genre: Politics
       
   Romance:
-    sort_title: !A Romance
+    sort_title: "!A Romance"
     smart_filter:
       sort_by: title.asc
       all:
@@ -228,7 +228,7 @@ collections:
       validate: false
       
   Sci-Fi:
-    sort_title: !A Sci-Fi
+    sort_title: "!A Sci-Fi"
     smart_filter:
       sort_by: title.asc
       all:
@@ -241,7 +241,7 @@ collections:
       validate: false
       
   Shorts:
-    sort_title: !A Shorts
+    sort_title: "!A Shorts"
     smart_filter:
       sort_by: title.asc
       any:
@@ -250,14 +250,14 @@ collections:
         - Short
       
   Soap Opera:
-    sort_title: !A Soap Opera
+    sort_title: "!A Soap Opera"
     smart_filter:
       sort_by: title.asc
       all:
         genre: Soap
       
   Talk Show:
-    sort_title: !A Talk Show
+    sort_title: "!A Talk Show"
     smart_filter:
       sort_by: title.asc
       any:
@@ -265,7 +265,7 @@ collections:
         - Talk Show
       
   Thriller:
-    sort_title: !A Thriller
+    sort_title: "!A Thriller"
     smart_filter:
       sort_by: title.asc
       all:
@@ -277,7 +277,7 @@ collections:
       validate: false
       
   Travel:
-    sort_title: !A Travel
+    sort_title: "!A Travel"
     smart_filter:
       sort_by: title.asc
       all: 
@@ -287,7 +287,7 @@ collections:
         - Children
       
   War:
-    sort_title: !A War
+    sort_title: "!A War"
     smart_filter:
       sort_by: title.asc
       all:
@@ -299,7 +299,7 @@ collections:
       validate: false
       
   Western:
-    sort_title: !A Westerns
+    sort_title: "!A Westerns"
     smart_filter:
       sort_by: title.asc
       all:
