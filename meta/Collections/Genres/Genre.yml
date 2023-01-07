@@ -327,17 +327,5 @@ collections:
       validate: false
     collection_mode: hide
       
-  Western:
-    sort_title: "!A Westerns"
-    smart_filter:
-      sort_by: title.asc
-      all:
-        genre: Western
-        genre.not:
-        - Animation
-        - Children
-        - Family
-      validate: false
-    collection_mode: hide
   
   
