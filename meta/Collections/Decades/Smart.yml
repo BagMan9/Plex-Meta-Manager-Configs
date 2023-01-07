@@ -12,6 +12,7 @@ collections:
         year.gte: 1930
         year.lte: 1940
       limit: 100
+    collection_mode: hide
       
   1940's:
     sort_title: 04-1940
@@ -21,6 +22,7 @@ collections:
         year.gte: 1940
         year.lte: 1950
       limit: 100
+    collection_mode: hide
       
   1950's:
     sort_title: 04-1950
@@ -30,6 +32,7 @@ collections:
         year.gte: 1950
         year.lte: 1960
       limit: 100
+    collection_mode: hide
       
   1960's:
     sort_title: 04-1960
@@ -39,6 +42,7 @@ collections:
         year.gte: 1960
         year.lte: 1970
       limit: 100
+    collection_mode: hide
       
   1970's:
     sort_title: 04-1970
@@ -48,6 +52,7 @@ collections:
         year.gte: 1970
         year.lte: 1980
       limit: 100
+    collection_mode: hide
       
   1980's:
     sort_title: 04-1980
@@ -57,6 +62,7 @@ collections:
         year.gte: 1980
         year.lte: 1990
       limit: 100
+    collection_mode: hide
       
   1990's:
     sort_title: 04-1990
@@ -66,6 +72,7 @@ collections:
         year.gte: 1990
         year.lte: 2000
       limit: 100
+    collection_mode: hide
       
   2000's:
     sort_title: 04-2000
@@ -75,6 +82,7 @@ collections:
         year.gte: 2000
         year.lte: 2010
       limit: 100
+    collection_mode: hide
       
   2010's:
     sort_title: 04-2010
@@ -84,6 +92,8 @@ collections:
         year.gte: 2010
         year.lte: 2020
       limit: 100
+    collection_mode: hide
+
       
   2020's:
     sort_title: 04-2020
@@ -93,4 +103,5 @@ collections:
         year.gte: 2020
         year.lte: 2030
       limit: 100
+    collection_mode: hide
       
