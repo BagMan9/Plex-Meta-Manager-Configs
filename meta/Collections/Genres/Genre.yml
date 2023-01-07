@@ -19,6 +19,7 @@ collections:
         - Children
         - Family
       validate: false
+    collection_mode: hide
       
   Adventure:
     sort_title: "!A Adventure"
@@ -31,6 +32,7 @@ collections:
         - Children
         - Family
       validate: false
+    collection_mode: hide
       
   Animation:
     sort_title: "!A Animation"
@@ -38,6 +40,7 @@ collections:
       sort_by: title.asc
       all:
         genre: Animation
+    collection_mode: hide
       
   Biography:
     sort_title: "!A Biography"
@@ -50,6 +53,8 @@ collections:
         - Children
         - Family
       validate: false
+    collection_mode: hide
+
       
   Comedy:
     sort_title: "!A Comedy"
@@ -62,6 +67,7 @@ collections:
         - Children
         - Family
       validate: false
+    collection_mode: hide
       
   Cooking:
     sort_title: "!A Cooking"
@@ -72,6 +78,7 @@ collections:
         genre.not:
         - Animation
         - Children
+    collection_mode: hide
       
   Crime:
     sort_title: "!A Crime"
@@ -84,6 +91,7 @@ collections:
         - Children
         - Family
       validate: false
+    collection_mode: hide
       
   Documentary:
     sort_title: "!A Documentary"
@@ -94,6 +102,7 @@ collections:
         genre.not:
         - Animation
         - Children
+    collection_mode: hide
       
   Drama:
     sort_title: "!A Drama"
@@ -106,6 +115,7 @@ collections:
         - Children
         - Family
       validate: false
+    collection_mode: hide
       
   Family:
     sort_title: "!A Family"
@@ -113,6 +123,7 @@ collections:
       sort_by: title.asc
       all:
         genre: Family
+    collection_mode: hide
       
   Fantasy:
     sort_title: "!A Fantasy"
@@ -125,16 +136,18 @@ collections:
         - Children
         - Family
       validate: false
+    collection_mode: hide
       
   Game Show:
     sort_title: "!A Game Show"
     smart_filter:
-      ssort_by: title.asc
+      sort_by: title.asc
       all:
         genre: Game Show
         genre.not:
         - Animation
         - Children
+    collection_mode: hide
       
   History:
     sort_title: "!A History"
@@ -147,6 +160,7 @@ collections:
         - Children
         - Family
       validate: false
+    collection_mode: hide
       
   Horror:
     sort_title: "!A Horror"
@@ -159,6 +173,7 @@ collections:
         - Children
         - Family
       validate: false
+    collection_mode: hide
       
   Martial Arts:
     sort_title: "!A Martial Arts"
@@ -170,6 +185,7 @@ collections:
         - Animation
         - Children
         - Family
+    collection_mode: hide
     
       
   Musical:
@@ -179,6 +195,7 @@ collections:
       all:
         genre: Musical
         genre.not: Children
+    collection_mode: hide
       
   Mystery:
     sort_title: "!A Mystery"
@@ -191,6 +208,7 @@ collections:
         - Children
         - Family
       validate: false
+    collection_mode: hide
       
   News:
     sort_title: "!A News"
@@ -198,6 +216,7 @@ collections:
       sort_by: title.asc
       all:
         genre: News
+    collection_mode: hide
       
   Noir:
     sort_title: "!A Noir"
@@ -207,6 +226,7 @@ collections:
         genre: 
         - Film-Noir
         - Film Noir
+    collection_mode: hide
       
   Politics:
     sort_title: "!A Politics"
@@ -214,6 +234,7 @@ collections:
       sort_by: title.asc
       all:
         genre: Politics
+    collection_mode: hide
       
   Romance:
     sort_title: "!A Romance"
@@ -226,6 +247,7 @@ collections:
         - Children
         - Family
       validate: false
+    collection_mode: hide
       
   Sci-Fi:
     sort_title: "!A Sci-Fi"
@@ -239,6 +261,7 @@ collections:
         - Children
         - Family
       validate: false
+    collection_mode: hide
       
   Shorts:
     sort_title: "!A Shorts"
@@ -248,6 +271,7 @@ collections:
         genre:
         - Short Film
         - Short
+    collection_mode: hide
       
   Soap Opera:
     sort_title: "!A Soap Opera"
@@ -255,6 +279,7 @@ collections:
       sort_by: title.asc
       all:
         genre: Soap
+    collection_mode: hide
       
   Talk Show:
     sort_title: "!A Talk Show"
@@ -263,6 +288,7 @@ collections:
       any:
         genre: 
         - Talk Show
+    collection_mode: hide
       
   Thriller:
     sort_title: "!A Thriller"
@@ -275,6 +301,7 @@ collections:
         - Children
         - Family 
       validate: false
+    collection_mode: hide
       
   Travel:
     sort_title: "!A Travel"
@@ -285,6 +312,7 @@ collections:
         genre.not:
         - Animation
         - Children
+    collection_mode: hide
       
   War:
     sort_title: "!A War"
@@ -297,6 +325,7 @@ collections:
         - Children
         - Family 
       validate: false
+    collection_mode: hide
       
   Western:
     sort_title: "!A Westerns"
@@ -309,6 +338,7 @@ collections:
         - Children
         - Family
       validate: false
+    collection_mode: hide
   
   Space:
     template: {name: Special Genre}
