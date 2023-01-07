@@ -26,7 +26,7 @@ collections:
     tmdb_trending_weekly: 10
     summary: Movies Trending across the internet
     radarr_add_missing: true
-    radarr_monitor: movie
+    radarr_monitor: true
     radarr_search: true
     radarr_tag: pmmTrend
   Popular:
