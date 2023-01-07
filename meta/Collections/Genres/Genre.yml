@@ -340,8 +340,4 @@ collections:
       validate: false
     collection_mode: hide
   
-  Space:
-    template: {name: Special Genre}
-    trakt_list: https://trakt.tv/users/hdlists/lists/outer-space-space-exploration-movies
-    summary: "A collection of movies that feature outer space and exploration."
   
