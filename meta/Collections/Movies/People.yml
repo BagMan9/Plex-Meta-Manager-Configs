@@ -12,7 +12,7 @@ templates:
       sort_by: random
       validate: false
     tmdb_person: <<person>>
-    sort_title: +4_<<collection_name>>
+    sort_title: ZZ_<<collection_name>>
     collection_mode: hide
     
 collections:
