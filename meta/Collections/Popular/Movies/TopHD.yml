@@ -19,16 +19,19 @@ collections:
       list_size: 20
       list_buffer: 20
     summary: Movies your brothers are watching
+    schedule: weekly(sunday)
   Trending:
     template: { name: Chart, num: 2 }
     trakt_trending: 10
     tmdb_trending_daily: 10
     tmdb_trending_weekly: 10
-    summary: Movies Trending across the internet
+    summary: Movies Trending across the internet - Automatically updates every day!
     radarr_add_missing: true
     radarr_monitor: true
     radarr_search: true
     radarr_tag: pmmTrend
+    visible_shared: true
+    visible_home: true
   Popular:
     template: { name: Chart, num: 3 }
     tmdb_popular: 40
