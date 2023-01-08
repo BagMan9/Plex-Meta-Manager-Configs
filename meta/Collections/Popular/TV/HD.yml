@@ -27,7 +27,7 @@ collections:
     tmdb_trending_weekly: 10
     summary: Shows Trending across the internet
     sonarr_add_missing: true
-    sonarr_monitor: true
+    sonarr_monitor: all
     sonarr_search: true
     sonarr_tag: pmmTrend
   Popular:
