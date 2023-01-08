@@ -1,20 +1,41 @@
-######################################################
-#                POPULAR - HD TV SHOWS               #
-######################################################
 
+######################################################
+#                Chart Collections                   #
+######################################################
+templates:
+  Chart:
+    sort_title: +1_<<num>><<collection_name>>
+    sync_mode: sync
+    smart_label: random
 
 collections:
-  Popular Shows:
-    schedule: weekly(Friday)
-    url_poster: https://raw.githubusercontent.com/zluckytraveler/Plex-Meta-Manager-Configs/master/zluckytraveler/Posters/Popular/Popular%20Shows.png
-    sort_title: 01-Popular Shows
-    collection_order: custom
-    sync_mode: sync
-    tmdb_discover:
-      sort_by: popularity.desc
-      limit: 500
-    limit: 50
-    visible_library: true
-    visible_shared: true
-    visible_home: true
+  Fiji Favorites:
+    template: { name: Chart, num: 1 }
+    tautulli_popular:
+      list_days: 30
+      list_size: 20
+      list_buffer: 20
+    tautulli_watched:
+      list_days: 30
+      list_size: 20
+      list_buffer: 20
+    summary: Shows your brothers are watching
+  Trending:
+    template: { name: Chart, num: 2 }
+    trakt_trending: 10
+    tmdb_trending_daily: 10
+    tmdb_trending_weekly: 10
+    summary: Shows Trending across the internet
+  Popular:
+    template: { name: Chart, num: 3 }
+    tmdb_popular: 40
+    imdb_list:
+      url: https://www.imdb.com/search/title/?title_type=tv_series,tv_miniseries
+      limit: 40
+    summary: Popular Shows across the internet
+  Emmy Winners:
+    template: { name: Chart, num: 5 }
+    imdb_list: https://www.imdb.com/search/title/?title_type=tv_series,tv_miniseries&groups=emmy_winner
+    summary: Emmy Winning Shows
+
 
