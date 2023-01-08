@@ -25,9 +25,9 @@ collections:
     trakt_trending: 10
     tmdb_trending_daily: 10
     tmdb_trending_weekly: 10
-    summary: Shows Trending across the internet
+    summary: Shows Trending across the internet. Automatically updates every day with the latest season - if you want earlier season, head over to Overseer and request them!
     sonarr_add_missing: true
-    sonarr_monitor: all
+    sonarr_monitor: latest
     sonarr_search: true
     sonarr_tag: pmmTrend
   Popular:
