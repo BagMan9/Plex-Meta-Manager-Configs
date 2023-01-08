@@ -26,6 +26,10 @@ collections:
     tmdb_trending_daily: 10
     tmdb_trending_weekly: 10
     summary: Shows Trending across the internet
+    sonarr_add_missing: true
+    sonarr_monitor: true
+    sonarr_search: true
+    sonarr_tag: pmmTrend
   Popular:
     template: { name: Chart, num: 3 }
     tmdb_popular: 40
