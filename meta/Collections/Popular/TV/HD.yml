@@ -23,9 +23,9 @@ collections:
     schedule: weekly(sunday)
   Trending:
     template: { name: Chart, num: 2 }
-    trakt_trending: 6
-    tmdb_trending_daily: 4
-    tmdb_trending_weekly: 7
+    trakt_trending: 3
+    tmdb_trending_daily: 3
+    tmdb_trending_weekly: 3
     summary: Shows Trending across the internet. Automatically updates every day with the latest season - if you want earlier season, head over to Overseer and request them!
     sonarr_add_missing: true
     sonarr_monitor: latest
