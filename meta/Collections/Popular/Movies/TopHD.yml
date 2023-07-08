@@ -22,9 +22,9 @@ collections:
     schedule: weekly(sunday)
   Trending:
     template: { name: Chart, num: 2 }
-    trakt_trending: 4
-    tmdb_trending_daily: 4
-    tmdb_trending_weekly: 4
+    trakt_trending: 2
+    tmdb_trending_daily: 2
+    tmdb_trending_weekly: 2
     summary: Movies Trending across the internet - Automatically updates every day!
     radarr_add_missing: true
     radarr_monitor: true
